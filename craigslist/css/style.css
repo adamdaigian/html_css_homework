@@ -1,0 +1,14 @@
+body {
+  background-color:f00000;
+  margin: 40px;
+}
+
+h2 {
+  font-size: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+footer{
+  display: none;
+}

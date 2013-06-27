@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cool Page</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <h1>Famous Cartoon Dogs</h1>
+
+      <ul id="puppies">
+        <li class="Great Dane">Scooby Doo
+          <img src="" alt="" /></li>
+        <li class="Cairn Terrier">Toto
+          <img src="" alt="" /></li>
+        <li class="Lab">Old Yeller
+          <img src="" alt="" /></li>
+        <li class="Cocker Spaniel">Lady
+          <img src="" alt="" /></li>
+        <li class="Chihuahua">Ren
+          <img src="" alt="" /></li>
+        <li class="Collie">Lassie
+          <img src="" alt="" /></li>
+        <li class="Great Dane">Marmaduke
+          <img src="" alt="" /></li>
+        <li class="Beagle">Snoopy
+          <img src="" alt="" /></li>
+      </ul>
+
+      <form id="new-puppy" action="/puppies" method="get">
+        <fieldset legend="Add a dog">
+        <label for="puppies"></label>
+        <select name="breed" id="breed">
+            <option value="">Choose a breed</option>
+            <option value="Greate Dane">Greate Dane</option>
+            <option value="Cairin Terrier">Cairin Terrier</option>
+            <option value="Lab">Lab</option>
+            <option value="Chihuahua">Chihuahua</option>
+            <option value="Collie">Collie</option>
+            <option value="Great Dane">Great Dane</option>
+            <option value="Beagle">Beagle</option>
+        </select>
+        Puppy Name: <input type="text" name="name">
+        <input name="puppies" id="puppies" type="submit" value="Add a dog!">
+        </fieldset>
+      </form>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
+
+
